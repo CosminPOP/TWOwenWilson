@@ -3,4 +3,5 @@
 ## Author: Xerron/Er
 ## Version: 1.0.0.0
 ## Notes: WoW
+## SavedVariablesPerCharacter: TWOW_WOW, TWOW_BLONK
 TWOwenWilson.lua
