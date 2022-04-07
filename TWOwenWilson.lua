@@ -31,7 +31,7 @@ ow:SetScript("OnEvent", function()
             end
         end
         if (event == "CHAT_MSG_SPELL_PERIODIC_HOSTILEPLAYER_DAMAGE" or event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE")
-                and TWOW_BLONK then
+                and TWOW_BLONK and UnitName('target') then
             if string.find(arg1, UnitName('target') .. " is afflicted by Mace Stun Effect.") then
                 PlaySoundFile("Interface\\AddOns\\TWOwenWilson\\Sounds\\bonk.mp3");
                 return
